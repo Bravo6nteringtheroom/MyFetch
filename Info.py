@@ -26,6 +26,5 @@ class OS:
     #Disk used / total
     storage_used = round((psutil.disk_usage('/').used / (1024 ** 3)))
     storage_total = round((psutil.disk_usage('/').total / (1024 ** 3)))
-    
     #UpTime function
     uptime = round(uptime() / 3600)

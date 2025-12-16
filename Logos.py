@@ -1,3 +1,5 @@
+import HexColors
+Hex = HexColors
 
 logo_lines = [
     "    (  ___  )",
@@ -102,20 +104,39 @@ l1 = [
 ]
 
 logo_lines2 = [
-"       .:^~!777!~^:.       ",
-"     ^!77777777?7777!:     ",
-"   .!7777777777?777777!.   ",
-"   !77777777777?7777777!   ",
-"  ^777777777777?77777777^  ",
-"^777??777777777777777???77^",
-"7??\033[1;30m5GBB###&&&&&&&##BBBG5\033[0m??7",
-"7?J??77??\033[1;30mJYB@@@BYJ\033[0m??77??J77",
-":7Y5YY?7775\033[1;30m!@@@!\033[0m5777?YY5Y7:",
-".7YY5Y5J777Y\033[1;30m@@@\033[0mY777Y5Y5YY7.",
-" 7YY?!7YJ77J\033[1;30m&@&\033[0mJ77YY7!?5Y7 ",
-" 75Y\033[1;30m~~~~\033[0m??7?\033[1;30m&@&\033[0mJ7??\033[1;30m~~~~\033[0mYY7 ",
-" ~Y7\033[1;30m~~~~~\033[0m77?\033[1;30m#@&\033[0m?77\033[1;30m~~~~~\033[0m7Y~ ",
-"  .:^\033[1;30m~~~~~\033[0m7?\033[1;30m&@&\033[0m?7\033[1;30m~~~~~\033[0m^:.  ",
-"      .:^~7!7?7!7~^:.       "
+f"{Hex.Helment_original_color}       .:^~!777!~^:.       {Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}     ^!77777777?7777!:     {Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}   .!7777777777?777777!.   {Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}   !77777777777?7777777!   {Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}  ^777777777777?77777777^  {Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}^7{Hex.Helement_line}77??777777777777777???7{Hex.Helement_line.OFF}{Hex.Helment_original_color}7^{Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}7?{Hex.Helement_line}?{Hex.Helement_line.OFF}{Hex.Helment_original_color.OFF}{Hex.black_void}5GBB###&&&&&&&##BBBG5{Hex.black_void.OFF}{Hex.Helment_original_color}{Hex.Helement_line}?{Hex.Helement_line.OFF}{Hex.Helment_original_color}?7{Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}7?{Hex.Helement_line}J??77??J{Hex.Helement_line.OFF}{Hex.Helment_original_color.OFF}{Hex.black_void}YB@@@BY{Hex.black_void.OFF}{Hex.Helment_original_color}{Hex.Helement_line}J??77??J{Hex.Helement_line.OFF}{Hex.Helment_original_color}77{Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}:7Y5YY?77{Hex.Helement_line}75{Hex.Helement_line.OFF}{Hex.Helment_original_color.OFF}{Hex.black_void}!@@@!{Hex.black_void.OFF}{Hex.Helment_original_color}{Hex.Helement_line}57{Hex.Helement_line.OFF}{Hex.Helment_original_color}77?YY5Y7:{Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}.7YY5Y5J77{Hex.Helement_line}7Y{Hex.Helement_line.OFF}{Hex.Helment_original_color.OFF}{Hex.black_void}@@@{Hex.black_void.OFF}{Hex.Helment_original_color}{Hex.Helement_line}Y7{Hex.Helement_line.OFF}{Hex.Helment_original_color}77Y5Y5YY7.{Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color} 7YY?!7YJ7{Hex.Helement_line}7J{Hex.Helement_line.OFF}{Hex.Helment_original_color.OFF}{Hex.black_void}&@&{Hex.black_void.OFF}{Hex.Helment_original_color}{Hex.Helement_line}J7{Hex.Helement_line.OFF}{Hex.Helment_original_color}7YY7!?5Y7 {Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color} 75Y{Hex.Helment_original_color.OFF}{Hex.right_cheek}~~~~{Hex.right_cheek.OFF}{Hex.Helment_original_color}??{Hex.Helement_line}7?{Hex.Helement_line.OFF}{Hex.Helment_original_color.OFF}{Hex.black_void}&@&{Hex.black_void.OFF}{Hex.Helment_original_color}{Hex.Helement_line}J7{Hex.Helement_line.OFF}{Hex.Helment_original_color}??{Hex.Helment_original_color.OFF}{Hex.right_cheek}~~~~{Hex.right_cheek.OFF}{Hex.Helment_original_color}YY7 {Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color} ~Y7{Hex.right_cheek}~~~~~{Hex.right_cheek.OFF}{Hex.Helment_original_color}7{Hex.Helement_line}7?{Hex.Helement_line.OFF}{Hex.Helment_original_color.OFF}{Hex.black_void}#@&{Hex.black_void.OFF}{Hex.Helment_original_color}{Hex.Helement_line}?7{Hex.Helement_line.OFF}{Hex.Helment_original_color}7{Hex.Helment_original_color.OFF}{Hex.right_cheek}~~~~~{Hex.right_cheek.OFF}{Hex.Helment_original_color}7Y~{Hex.Helment_original_color.OFF}{Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}  .:^{Hex.right_cheek}~~~~~{Hex.right_cheek.OFF}{Hex.Helment_original_color}7{Hex.Helement_line}?{Hex.Helement_line.OFF}{Hex.Helment_original_color.OFF}{Hex.black_void}&@&{Hex.black_void.OFF}{Hex.Helment_original_color}{Hex.Helement_line}?{Hex.Helement_line.OFF}{Hex.Helment_original_color}7{Hex.Helment_original_color.OFF}{Hex.Helment_original_color.OFF}{Hex.right_cheek}~~~~~{Hex.right_cheek.OFF}{Hex.Helment_original_color}^:.{Hex.Helment_original_color.OFF}{Hex.Helment_original_color.OFF}",
+f"{Hex.Helment_original_color}      .:^{Hex.right_cheek}~{Hex.right_cheek.OFF}{Hex.Helment_original_color}7{Hex.Helement_line}!{Hex.Helement_line.OFF}{Hex.Helment_original_color.OFF}{Hex.black_void}7?7{Hex.black_void.OFF}{Hex.Helment_original_color}{Hex.Helement_line}!{Hex.Helement_line.OFF}{Hex.Helment_original_color}7~^:.{Hex.Helment_original_color.OFF}"
 ]
 
+logo_lines3 = [
+"        .:^^~!777!^^:.        ",
+"      :~!77777777?777!~:      ",
+"    :!77777777777?777777!:    ",
+"   :7777777777777?77777777.   ",
+"   !777777777777?777777777!   ",
+" .^!!77777777!777777777777!^: ",
+"~?7JJJJ??????????????JJJJJJ??~",
+"7?7YPGB##&&@@@@@@@@&&#BBGPY??7",
+"77JJ?7777?JJP@@@@PJJ?7777?JJ77",
+":7Y55YJ7777!?&@@&J!777?JY55Y7:",
+".!YY555Y?777?#@@&?777?Y555YY7.",
+" !YYY??Y5?777#@@#?77?5Y??YYY! ",
+" !Y5J~~~7Y?77B@@B77?Y7~~~JYY! ",
+" ~YY!~~~~!J77B@@B77J!~~~~!YY! ",
+" .77~~~~~~!77G@@G77!~~~~~~?7: ",
+"   .:^~~~~~77G@@G77~~~~~^:.   ",
+"       .:^~7!~77~!7~^:.       "
+]

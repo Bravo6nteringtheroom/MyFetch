@@ -3,13 +3,14 @@ from uptime import uptime
 from itertools import zip_longest
 from Info import OS
 import icons
-
+import HexColors
 
 p = OS()
+Hex = HexColors
 
 info_lines = [
     #Hostname:
-    f"\033[1;37m{icons.host_icon} Host Name: {p.Hostname}\033[0m",
+    f"{Hex.brown}{icons.OS_icon} Host Name: {p.Hostname}{Hex.brown.OFF}",
     #IP Address:
     f"\033[1;33m{icons.IP_icon} IP Address: {p.IP_Addr}\033[0m",
     #OS_name:
